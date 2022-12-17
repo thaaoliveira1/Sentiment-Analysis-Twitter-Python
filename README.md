@@ -1,7 +1,5 @@
-# Students Mental Health
+# Mental Health in Tech Industries
 
-## Group: Bita and Thamires
+## Final Project Advanced Machine Learning
 
-cats are the best
-
-New day
+This dataset is from a 2014 survey that measures attitudes towards mental health and frequency of mental health disorders in the tech workplace. You are also encouraged to analyze data from the ongoing 2016 survey found here.
