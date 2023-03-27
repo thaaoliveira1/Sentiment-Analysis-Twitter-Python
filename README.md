@@ -1,5 +1,38 @@
-# Mental Health in Tech Industries
+# Twitter Sentiment Analysis
 
 ## Final Project Advanced Machine Learning
 
 This dataset is from a 2014 survey that measures attitudes towards mental health and frequency of mental health disorders in the tech workplace. You are also encouraged to analyze data from the ongoing 2016 survey found here.
+
+This project is a Twitter sentiment analysis application that uses machine learning algorithms to classify tweets as positive, negative, or neutral. It uses a dataset of pre-labeled tweets to train a machine learning model and then applies that model to classify new tweets in real-time.
+
+### Requirements
+To use this application, you will need to have the following installed on your machine:
+
+Python 3.x
+Jupyter Notebook
+NumPy
+Pandas
+Scikit-learn
+Tweepy
+NLTK
+
+
+### Getting Started
+To get started with this application, follow these steps:
+
+1. Clone this repository to your local machine.
+2. Install the required libraries listed in the requirements.txt file using the following command: pip install -r requirements.txt.
+3. Obtain Twitter API credentials and update the config.py file with your credentials.
+4. Open the Twitter_Sentiment_Analysis.ipynb file in Jupyter Notebook.
+5. Follow the instructions in the notebook to train the machine learning model, apply it to classify new tweets, and analyze the results.
+
+### Machine Learning Theory
+This project is designed to showcase the application of machine learning algorithms to natural language processing tasks, such as sentiment analysis. In particular, the notebook demonstrates the use of a support vector machine (SVM) classifier and a naive Bayes classifier to classify tweets based on their sentiment.
+
+The SVM classifier works by finding the hyperplane that maximally separates the different classes of data points in a high-dimensional space. The naive Bayes classifier, on the other hand, is a probabilistic algorithm that calculates the likelihood of each class given the features of the input data.
+
+In addition to these classifiers, the notebook also explores techniques for preprocessing and feature engineering text data, such as tokenization, stemming, and the bag-of-words model.
+
+### Acknowledgements
+This project was inspired by the Sentiment140 dataset, which contains 1.6 million tweets that have been labeled as positive, negative, or neutral. The notebook also draws on examples and documentation from the scikit-learn and NLTK libraries.
