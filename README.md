@@ -22,10 +22,11 @@ NLTK
 To get started with this application, follow these steps:
 
 1. Clone this repository to your local machine.
-2. Install the required libraries listed in the requirements.txt file using the following command: pip install -r requirements.txt.
-3. Obtain Twitter API credentials and update the config.py file with your credentials.
-4. Open the Twitter_Sentiment_Analysis.ipynb file in Jupyter Notebook.
-5. Follow the instructions in the notebook to train the machine learning model, apply it to classify new tweets, and analyze the results.
+2. Download the file from this link https://drive.google.com/file/d/1FAgZ9cdNjlousnXqvZ-36p0QIpb0tbm3/view?usp=share_link and copy it to the repository folder
+3. Install the required libraries listed in the requirements.txt file using the following command: pip install -r requirements.txt.
+4. Obtain Twitter API credentials and update the config.py file with your credentials.
+5. Open the Twitter_Sentiment_Analysis.ipynb file in Jupyter Notebook.
+6. Follow the instructions in the notebook to train the machine learning model, apply it to classify new tweets, and analyze the results.
 
 ### Machine Learning Theory
 This project is designed to showcase the application of machine learning algorithms to natural language processing tasks, such as sentiment analysis. In particular, the notebook demonstrates the use of a support vector machine (SVM) classifier and a naive Bayes classifier to classify tweets based on their sentiment.
