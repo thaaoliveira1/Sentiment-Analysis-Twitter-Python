@@ -3,11 +3,14 @@ import re
 import numpy as np
 import pandas as pd
 # plotting
-import seaborn as sns
-from wordcloud import WordCloud
-import matplotlib.pyplot as plt
+ import seaborn as sns
+ from wordcloud import WordCloud
+
+import matplotlib.pyplot as 
+
 # nltk
 from nltk.stem import WordNetLemmatizer
+
 # sklearn
 from sklearn.svm import LinearSVC
 from sklearn.naive_bayes import BernoulliNB
