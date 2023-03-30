@@ -22,7 +22,7 @@ NLTK
 To get started with this application, follow these steps:
 
 1. Clone this repository to your local machine.
-2. Download the file from this link https://drive.google.com/file/d/1FAgZ9cdNjlousnXqvZ-36p0QIpb0tbm3/view?usp=share_link and copy it to the repository folder
+2. Download the file from this link https://drive.google.com/file/d/1FAgZ9cdNjlousnXqvZ-36p0QIpb0tbm3/view?usp=share_link, copy it to the repository folder and rename it to `twitter_data.csv`
 3. Install the required libraries listed in the requirements.txt file using the following command: pip install -r requirements.txt.
 4. Obtain Twitter API credentials and update the config.py file with your credentials.
 5. Open the Twitter_Sentiment_Analysis.ipynb file in Jupyter Notebook.
@@ -37,3 +37,8 @@ In addition to these classifiers, the notebook also explores techniques for prep
 
 ### Acknowledgements
 This project was inspired by the Sentiment140 dataset, which contains 1.6 million tweets that have been labeled as positive, negative, or neutral. The notebook also draws on examples and documentation from the scikit-learn and NLTK libraries.
+
+## FAQ
+
+### I did commit a huge file, what should I do? :(
+- Run `git reset --hard HEAD~1` to delete de latest commit. If you did this more than once, run this command as many times as needed. You can check if you still have "broken" commits by running `git status`. As long as you see `Your branch is ahead of 'origin/main' by N commit.` it means you still aren't were you were supposed to be. The expected result should be `Everything up-to-date`. Also remember that every other changes you made on those commits will be lost, so backup them before doing this!
