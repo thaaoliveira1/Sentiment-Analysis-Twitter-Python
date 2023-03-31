@@ -41,4 +41,4 @@ This project was inspired by the Sentiment140 dataset, which contains 1.6 millio
 ## FAQ
 
 ### I did commit a huge file, what should I do? :(
-- Run `git reset --hard HEAD~1` to delete de latest commit. If you did this more than once, run this command as many times as needed. You can check if you still have "broken" commits by running `git status`. As long as you see `Your branch is ahead of 'origin/main' by N commit.` it means you still aren't were you were supposed to be. The expected result should be `Everything up-to-date`. Also remember that every other changes you made on those commits will be lost, so backup them before doing this!
+- Run `git reset --hard HEAD~1` to delete de latest commit. If you did this more than once, run this command as many times as needed. You can check if you still have "broken" commits by running `git status`. As long as you see `Your branch is ahead of 'origin/main' by N commit.` it means you still aren't were you were supposed to be. The expected result should be `Everything up-to-date`. Also remember that every other changes you made on those commits will be lost, so backup them before doing this!.
