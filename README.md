@@ -1,8 +1,6 @@
 # Twitter Sentiment Analysis
 
-## Final Project Advanced Machine Learning
-
-This dataset is from a 2014 survey that measures attitudes towards mental health and frequency of mental health disorders in the tech workplace. You are also encouraged to analyze data from the ongoing 2016 survey found here.
+## Advanced Machine Learning
 
 This project is a Twitter sentiment analysis application that uses machine learning algorithms to classify tweets as positive, negative, or neutral. It uses a dataset of pre-labeled tweets to train a machine learning model and then applies that model to classify new tweets in real-time.
 
